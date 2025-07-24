@@ -3,7 +3,7 @@
   "displayName": "Frogy Bober Shlappy Code Theme",
   "description": "Веноменальна темна тема для VS Code, наповнена духом Жабобоброфедерації та абсурду!",
   "version": "1.0.0",
-  "publisher": "FrogyBoberShlappyCode2014",  // <-- Заміни на свій нікнейм на GitHub!
+  "publisher": "50ee1eea-86dc-631d-b646-d1b905164d81",
   "engines": {
     "vscode": "^1.70.0"
   },
