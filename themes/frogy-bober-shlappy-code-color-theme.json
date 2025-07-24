@@ -1,0 +1,134 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "colors": {
+    // Кольори загального інтерфейсу VS Code
+    "editor.background": "#1A1A1A", // Глибокий чорний, як безодня абсурду
+    "editor.foreground": "#E0E0E0", // Світлий текст, щоб було видно крінж
+    "editorCursor.foreground": "#FF00FF", // Курсор кольору фуксії - щоб він виділявся!
+    "editor.lineHighlightBackground": "#282A2A", // Підсвітка поточної лінії
+    "editor.selectionBackground": "#6A0DAD", // Виділення кольору баклажана - таємниче і яскраве!
+
+    "activityBar.background": "#0A0A0A", // Дуже темна панель активності
+    "sideBar.background": "#121212", // Трохи світліша бокова панель
+    "editorGroupHeader.tabsBackground": "#121212", // Фон вкладок редактора
+    "tab.activeBackground": "#1A1A1A", // Активна вкладка - такий же, як фон редактора
+    "tab.inactiveBackground": "#0A0A0A", // Неактивна вкладка - темніша
+
+    "button.background": "#2E8B57", // Колір кнопки (темний морський зелений - як жаба!)
+    "button.foreground": "#FFFFFF", // Білий текст на кнопках
+
+    "statusBar.background": "#004D40", // Колір статусної стрічки (темний бірюзовий - як ставок бобра)
+    "statusBar.foreground": "#FFFFFF", // Білий текст на статусній стрічці
+    "statusBarItem.hoverBackground": "#00796B", // При наведенні на статусній стрічці
+
+    "titleBar.activeBackground": "#0A0A0A", // Активний заголовок вікна
+    "titleBar.activeForeground": "#FFFFFF", // Текст заголовка вікна
+
+    "terminal.background": "#0A0A0A", // Фон терміналу - чорний, як ніч
+    "terminal.foreground": "#00FF00", // Текст терміналу - яскраво-зелений, як жаба!
+    "terminalCursor.foreground": "#FFD700", // Курсор терміналу - золотий, як скарби бобра
+
+    // Кольори синтаксису коду (tokenColors)
+    // Тут починається справжній крінж!
+    "textLink.foreground": "#8A2BE2", // Посилання (синій фіолетовий - несподіваний!)
+    "errorForeground": "#FF4500", // Помилки (помаранчево-червоний - кричущий!)
+    "warningForeground": "#FFFF00", // Попередження (яскраво-жовтий - як попереджувальний знак абсурду!)
+    "infoForeground": "#1E90FF", // Інформація (синій - спокійний, як ставок)
+
+    "sash.hoverBorder": "#2E8B57", // Межі при наведенні
+
+    // Поля введення
+    "input.background": "#0A0A0A",
+    "input.foreground": "#E0E0E0",
+    "input.border": "#004D40",
+    "inputOption.activeBorder": "#2E8B57",
+
+    // Скролбари
+    "scrollbarSlider.background": "#444444",
+    "scrollbarSlider.hoverBackground": "#555555",
+    "scrollbarSlider.activeBackground": "#666666"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#666666", // Сірі коментарі - як секретні записи Жабобобра
+        "fontStyle": "italic" // Щоб вони виглядали загадково
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#FF00FF" // Ключові слова - Яскрава Фуксія! Щоб одразу було видно!
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#00FF00" // Рядки - Яскраво-Зелений! Як соковита жаба!
+      }
+    },
+    {
+      "scope": ["number"],
+      "settings": {
+        "foreground": "#FFFF00" // Числа - Яскраво-Жовтий! Як золоті зуби бобра!
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#8A2BE2" // Функції - Синій Фіолетовий! Таємничий та потужний!
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#FFA500" // Змінні - Яскраво-Помаранчевий! Щоб їх було важко не помітити!
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.class"],
+      "settings": {
+        "foreground": "#1E90FF" // Типи/Класи - Яскравий Синій! Як чиста вода в ставку!
+      }
+    },
+    {
+      "scope": ["punctuation", "delimiter"],
+      "settings": {
+        "foreground": "#E0E0E0" // Роздільники - Світло-сірі, щоб не відволікали від крінжу
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#FF69B4" // Атрибути (HTML, CSS) - Яскраво-Рожевий! Щоб все було "по-абсурдному"!
+      }
+    },
+    {
+      "scope": ["tag"],
+      "settings": {
+        "foreground": "#ADFF2F" // Теги (HTML) - Яскравий Зелено-Жовтий! Неон, як для дискотеки!
+      }
+    },
+    {
+      "scope": ["markup.list", "markup.bold"],
+      "settings": {
+        "foreground": "#FFD700" // Списки/Жирний текст в Markdown - Золотий!
+      }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#FF6347" // Курсив в Markdown - Томатний!
+      }
+    },
+    {
+      "scope": ["meta.link", "string.url"],
+      "settings": {
+        "foreground": "#20B2AA", // Посилання - Світлий морський зелений!
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}
