@@ -1,0 +1,43 @@
+{
+  "name": "frogy-bober-shlappy-code",
+  "displayName": "Frogy Bober Shlappy Code Theme",
+  "description": "Веноменальна темна тема для VS Code, наповнена духом Жабобоброфедерації та абсурду!",
+  "version": "1.0.0",
+  "publisher": "FrogyBoberShlappyCode2014",  // <-- Заміни на свій нікнейм на GitHub!
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Frogy Bober Shlappy Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frogy-bober-shlappy-code-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "homepage": "https://github.com/FrogyBoberShlappyCode2014/vscode-theme-frogy", // <-- Заміни!
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrogyBoberShlappyCode2014/vscode-theme-frogy.git" // <-- Заміни!
+  },
+  "bugs": {
+    "url": "https://github.com/FrogyBoberShlappyCode2014/vscode-theme-frogy/issues" // <-- Заміни!
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "frogy",
+    "bober",
+    "shlappy",
+    "absurd",
+    "krinzh",
+    "жабобобер",
+    "пельмень",
+    "веноменально"
+  ]
+}
